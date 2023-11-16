@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $category = $_POST['category'];
     $tags = $_POST['tags']; // Assuming tags are provided as an array in the form.
     $metaDescription = $_POST['metaDescription'];
-    $subtitle = $_POST['Subtitle'];
+    $subtitle = $_POST['subtitle'];
     // $slug = strtolower(str_replace(' ', '-', $title)); // Convert spaces to hyphens and make lowercase
     // $url = $slug;
     $slug = strtolower(str_replace(' ', '-', $title)); // Convert spaces to hyphens and make lowercase

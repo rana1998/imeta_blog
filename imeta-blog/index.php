@@ -32,7 +32,7 @@ $blogData = $blogClass->blogDetailsForPostHomePage($db,$tag);
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js" integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<title>Blockchain development & outsourcing | Web3 dApp Development Services - iMeta</title>
    <meta name="description" content="Unlock the potential of blockchain technology with our expert blockchain development and outsourcing services. Build cutting-edge Web3 dApps with our experienced team. Contact us today!">
 
@@ -211,7 +211,7 @@ li a:hover {
                   <div class="author-info">
                      <img src="https://thumbs.dreamstime.com/z/amaranth-love-lies-bleeding-chain-link-fence-29603774.jpg?w=992" alt="Author Image" class="author-image">
                      <h6 class="author-title" style="color:#000">Kate Drozd</h2>
-                     <p style="font-size:1em;">Published Date:1/01/2023</p>
+                     <p style="font-size:1em;">Published Date <?php echo $blogData->PublicationDate; ?></p>
                      <a href="https://www.linkedin.com/in/kate-drozd-1b2bb8191/" target="_blank">LinkedIn</a>
                   </div>
                </div>
@@ -225,7 +225,7 @@ li a:hover {
                <i class="bx bx-menu fs-2 align-middle me-1"></i>
                <span>Table of Contents</span>
             </h3>
-            <h3>Table of Contents</h3>
+            <!-- <h3>Table of Contents</h3> -->
             <ul id="tableOfContents">
                <!-- <li><a href="#section1">Section 1</a></li>
                <li><a href="#section2">Section 2</a></li> -->

@@ -107,7 +107,7 @@ include "header.php";
                                     <div class="form-group row">
                                         <label class="col-sm-3 col-form-label">Subtitle</label>
                                         <div class="col-sm-9">
-                                            <input autocomplete="off" type="text" class="form-control" name="Subtitle" id="Subtitle">
+                                            <input autocomplete="off" type="text" class="form-control" name="subtitle" id="subtitle">
                                         </div>
                                     </div>
                                     <div class="form-group row">

@@ -35,6 +35,7 @@ class BlogHelper {
 
     public function createBlog($db, $title, $content, $authorID, $publicationDate, $category, $tags, $url, $metaDescription, $imageURL, $subtitle) {
         try {
+            print_r($subtitle);
             // Prepare the SQL query to insert a new blog post with an image URL
             $sql = "INSERT INTO BlogPost (Title, Content, AuthorID, PublicationDate, Category, Subtitle,  Tags, URL, MetaDescription, ImageURL)
                     VALUES (:title, :content, :authorID, :publicationDate, :category, :subtitle, :tags, :url, :metaDescription, :imageURL)";
