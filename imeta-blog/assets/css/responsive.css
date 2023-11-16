@@ -1,0 +1,1931 @@
+ @media (max-width: 650px) {          /*---------------MOBILEs-----------------*/
+
+
+
+.topbar{
+    padding-top: 0.3rem;
+    padding-bottom: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.topbar a{
+    font-size: 0.9rem;
+}
+
+.topbar a img{
+    width: 1rem;
+    margin-right: 0.5rem;
+}
+
+
+.topbar p{
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.topbar p img{
+    width: 1rem;
+    margin-left: 0rem;
+}
+
+.topbar .second_p{
+    margin-top: -1rem;
+    text-align: center;
+}
+
+.topbar .first_p{
+    text-align: center;
+}
+
+
+
+.navbar{
+    padding: 1rem 2rem;
+    z-index: 100 !important;
+}
+
+
+.navbar .logo{
+ width: 4.5rem;
+}
+
+.navbar .nav-link{
+    font-size: 1rem;
+    margin-right: 1.5rem;
+}
+
+.navbar .dropdown-item{
+    font-size: 0.7rem;
+}
+
+.navbar .quote-btn{
+  font-size: 0.8rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.navbar .lang-btn{
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.navbar .lang-btn img{
+    width: 1rem;
+    margin-right: 0.5rem;
+}
+
+
+
+.navbar .menu{
+    max-width: 100%;
+}
+
+
+.main-dropdown .left{
+    display: none;
+}
+
+
+
+             #link2{
+              display: block;
+            }
+
+            #link3{
+              display: block;
+            }
+
+            #link4{
+              display: block;
+            }
+
+            #link5{
+              display: block;
+            }
+
+
+
+
+.navbar .telegram-btn{
+    height: 2.2rem;
+    width: 2.2rem;
+    margin-right: 0.5rem;
+}
+
+.navbar .telegram-btn img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.navbar .whatsapp-btn{
+    height: 2.2rem;
+    width: 2.2rem;
+    margin-right: 0.5rem;
+}
+
+.navbar .whatsapp-btn img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+
+.navbar .theme-outer{
+    padding: 0.4rem 0.5rem;
+    border-radius: 1.5rem;
+}
+
+
+
+#Banner{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 0rem;
+}
+
+#Banner h1{
+    width: 15ch;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+#Banner .main_p{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+
+#Banner .contact-btn{
+    font-size: 1.5rem;
+    height: 3rem;
+    border-radius: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 1rem;
+}
+
+#Banner .contact-btn img{
+    width: 1rem;
+    margin-right: 0.5rem;
+    margin-top: -0.3rem;
+}
+
+
+#Banner h2{
+    font-size: 2rem;
+    margin-top: 2vw;
+    color: #ffffff;
+}
+
+#Banner .second_p{
+    font-size: 1rem;
+}
+
+
+#Banner .top_hr{
+ margin-top: -2rem;
+ margin-bottom: 2.5rem;
+}
+
+
+#Banner .bottom_hr{
+    margin-top: 2rem;
+}
+
+#Banner .banner-img{
+    width: 100%;
+    margin-top: -0rem;
+    margin-left: -0rem;
+    margin-top: 1rem;
+}
+
+
+
+
+#Logo{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+#Logo .main_p{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+
+#Logo .inner{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+#Logo #logo_slider .item{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+#Logo #logo_slider .item img{
+    width: 4rem;
+}
+
+
+#Evaluation{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+#Evaluation .nav-item .active{
+    font-size: 1.2rem;
+    padding: 0rem;
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+
+#Evaluation .nav-link{
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+
+#Evaluation hr{
+    margin-top: 2rem;
+}
+
+#Evaluation .tab-pane{
+    padding-top: 0rem;
+}
+
+#Evaluation .left img{
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 2rem;
+}
+
+#Evaluation .right{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#Evaluation .right p{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+#Evaluation .right .info-btn{
+    font-size: 0.8rem;
+    padding: 0.4rem 1.6rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.8rem;
+    border-radius: 1.5rem;
+}
+
+
+#Evaluation .right .contact-btn{
+ margin-top: 2rem;
+ padding: 0.6rem 5.5rem;
+ font-size: 1rem;
+ border-radius: 2rem;
+ margin-right: 0.5rem;
+}
+
+#Evaluation .right .learn-btn{
+ margin-top: 1rem;
+ padding: 0.6rem 2rem;
+ font-size: 1rem;
+ font-weight: bolder;
+ border-radius: 2rem;
+ margin-right: 0rem;
+}
+
+#Evaluation .right .learn-btn img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+
+#Industry{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#Industry .left h2{
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+
+#Industry .left .left-btn{
+  margin-right: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#Industry .left .left-btn img{
+    width: 3rem;
+}
+
+#Industry .left .right-btn img{
+    width: 3rem;
+}
+
+#Industry #industry_slider .item{
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+#Industry #industry_slider .item img{
+    height: 15rem;
+  border-radius: 1rem;
+}
+
+#Industry #industry_slider .item h3{
+font-size: 1.2rem;
+margin-top: 1.5rem;
+padding-left: 1rem;
+}
+
+#Industry #industry_slider .item p{
+    padding-left: 1rem;
+    font-size: 0.8rem;
+}
+
+
+#Case{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#Case h2{
+    font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+#Case .outer{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+#Case .item{
+    border-radius: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#Case .item img{
+    border-radius: 1.5rem;
+    height: 15rem;
+}
+
+#Case .item .inner{
+    padding: 1rem;
+}
+
+#Case .item .inner button{
+    font-size: 0.8rem;
+    padding: 0.4rem 1.6rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+
+#Case .item .inner h3{
+    font-size: 1.8rem;
+    width: 15ch;
+}
+
+
+
+#Why{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#Why .why-bg{
+    display: none;
+}
+
+#Why h2{
+    font-size: 2rem;
+}
+
+#Why .main_p{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#Why .left{
+    padding: 1rem;
+    border-right: 5px solid transparent;
+    margin-top: 1rem;
+}
+
+#Why .left .rows{
+    margin-bottom: 1rem;
+}
+
+#Why .left h3{
+        font-size: 2.5rem;
+}
+
+#Why .left p{
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+
+#Why .right{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#Why .right p{
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#Why .right .contact-btn{
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    margin-right: 0.5rem;
+    
+}
+
+#Why .right .learn-btn{
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    margin-right: 0rem;
+}
+
+
+#Why .last_hr{
+margin-top: 2rem;
+}
+
+
+#Team{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+#Team .inner-row{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+#Team h2{
+    font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#Team .team-left-btn{
+    margin-right: 0.5rem;
+    margin-top: -1vw;
+    margin-bottom: 2rem;
+}
+
+#Team .team-left-btn img{
+    width: 3rem;
+}
+
+#Team .team-right-btn img{
+    width: 3rem;
+}
+
+
+#Team #team_slider .item{
+    padding: 0.8rem 0.8rem 2rem 0.8rem;
+    border-radius: 1rem;
+}
+
+#Team #team_slider .item img{
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+
+#Team #team_slider .item h3{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+#Team #team_slider .item p{
+    font-size: 0.8rem;
+    margin-left: 1rem;
+}
+
+#Technology{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+#Technology h2{
+    font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#Technology .nav-item .active{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#Technology .nav-link{
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+
+#Technology hr{
+    margin-top: 2rem;
+}
+
+#Technology .tab-pane{
+    padding-top: 2rem;
+}
+
+#Technology .tab-pane .left{
+    padding-right: 0rem;
+}
+
+
+#Technology .tab-pane h3{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#Technology .tab-pane h4{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+
+
+#Technology .tab-pane .tech-inner{
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#Technology .tab-pane .tech{
+    height: 3rem;
+    object-fit: contain;
+}
+
+#Technology .tab-pane .right{
+    padding-left: 0rem;
+}
+
+
+#Approach{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+#Approach h2{
+    font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#Approach .main_p{
+    font-size: 1rem;
+    margin-top: 0rem;
+}
+
+#Approach .leftt{
+    margin-top: 2rem;
+    border-right: none;
+}
+
+
+#Approach .nav-item .active{
+    font-size: 1.2rem;
+    padding: 0rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#Approach .nav-link{
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+#Approach hr{
+    margin-top: 2rem;
+}
+
+#Approach .tab-pane{
+    padding-top: 1rem;
+}
+
+#Approach .left .left-img{
+    height: 25rem;
+    border-radius: 2rem;
+    position: relative;
+    z-index: 10;
+}
+
+
+#Approach .right{
+    padding-top: 0rem;
+    padding-left: 1rem;
+}
+
+
+#Approach .right h3{
+font-size: 1.4rem;
+}
+
+#Approach .right p{
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+#Approach .list-ul{
+    margin-top: 2rem;
+}
+
+#Approach .list-ul li{
+    font-size: 1.2rem;
+    margin-bottom: 1.4rem;
+}
+
+#Approach .list-ul li img{
+    width: 1.8rem;
+    margin-right: 1rem;
+}
+
+
+#Clients{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#Clients h2{
+    font-size: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 0rem;
+}
+
+#Clients #client_slider1 .item{
+ padding: 2rem 2rem;
+ border-radius: 1vw;
+}
+
+
+#Clients #client_slider1 .item h3{
+    font-size: 1.2rem;
+    padding-left: 3.5rem;
+}
+
+#Clients #client_slider1 .item h3 img{
+    width: 3rem;
+}
+
+
+#Clients #client_slider1 .item h4{
+    padding-left: 3.5rem;
+    font-size: 0.8rem;
+}
+
+
+#Clients #client_slider1 .item .stars{
+    width: 5rem;
+    margin-top: -3rem;
+}
+
+#Clients #client_slider1 .item p{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+#Clients #client_slider2{
+    margin-top: 1rem;
+}
+
+
+#Clients #client_slider2 .item{
+ padding: 2rem 2rem;
+ border-radius: 1rem;
+}
+
+#Clients #client_slider2 .item h3{
+    font-size: 1.2rem;
+    padding-left: 3.5rem;
+}
+
+#Clients #client_slider2 .item h3 img{
+    width: 3rem;
+}
+
+
+#Clients #client_slider2 .item h4{
+    padding-left: 3.5rem;
+    font-size: 0.8rem;
+}
+
+
+#Clients #client_slider2 .item .stars{
+    width: 5rem;
+    margin-top: -3rem;
+}
+
+#Clients #client_slider2 .item p{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+
+#Clients #client_slider3{
+    margin-top: 1rem;
+}
+
+
+#Clients #client_slider3 .item{
+ padding: 2rem 2rem;
+ border-radius: 1rem;
+}
+
+#Clients #client_slider3 .item h3{
+    font-size: 1.2rem;
+    padding-left: 3.5rem;
+}
+
+#Clients #client_slider3 .item h3 img{
+    width: 3rem;
+}
+
+
+#Clients #client_slider3 .item h4{
+    padding-left: 3.5rem;
+    font-size: 0.8rem;
+}
+
+
+#Clients #client_slider3 .item .stars{
+    width: 5rem;
+    margin-top: -3rem;
+}
+
+#Clients #client_slider3 .item p{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+
+#Start{
+  padding-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 5rem;
+}
+
+#Start h2{
+    font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+#Start .input{
+    height: 3rem;
+    padding-left: 2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+} 
+
+
+#Start select{
+    height: 3rem;
+    padding-left: 2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+} 
+
+
+
+#Start textarea{
+    border-radius: 1rem;
+  font-size: 1rem;
+  padding-left: 2rem;
+}
+
+#Start textarea::placeholder{
+  font-size: 1rem;
+}
+
+#Start label{
+    font-size: 0.8rem;
+}
+
+
+
+#Start .send-btn{
+    margin-top: 1rem;
+    height: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 1.5rem;
+    font-size: 0.8rem;
+}
+
+
+
+
+#Banner2{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+#Banner2 h1{
+    font-size: 2rem;
+}
+
+#Banner2 h1 img{
+    width: 12rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+#Banner2 h2{
+    font-size: 2.5rem;
+    margin-top: -1vw;
+}
+
+
+
+#Banner2 p{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+
+#Banner2 .lets{
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 2.5rem;
+    font-size: 1rem;
+}
+
+
+#Evaluation h1{
+    font-size: 2.2rem;
+}
+
+#Evaluation h1 img{
+    margin-left: 1rem;
+    width: 10rem;
+    margin-top: -1rem;
+}
+
+#Evaluation h2{
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+#Evaluation .main_p{
+    margin-top: -0.5rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+#Order{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+}
+
+
+
+#Order .inner{
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+#Order .inner h2{
+    font-size: 1.5rem;
+}
+
+#Order .inner p{
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+
+
+#Order .inner input{
+    height: 3rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+}
+
+#Order .inner input::placeholder{
+    font-size: 1rem;
+}
+
+
+#Order .inner .send-btn{
+    margin-top: 2rem;
+    padding: 0.6rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+}
+
+
+.moon{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.moon img{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.sun{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0rem;
+}
+
+.sun img{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+
+/*-----------mobile service page css-------------------*/
+
+
+.Mobile{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
+.Mobile h2{
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.Mobile p{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.Mobile .get-btn{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    padding: 0.6rem 3rem 0.6rem 3rem;
+    border-radius: 2rem;
+}
+
+
+.Mobile .mobile{
+    position: relative;
+    width: 95%;
+    top: 2rem;
+}
+
+.About{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+.About h2{
+font-size: 2rem;
+}
+
+.About p{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+.About .item{
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+
+.About .item h3{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+.Why{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.Why h2{
+font-size: 2rem;
+}
+
+.Why p{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.Why .right{
+    padding-left: 1rem;
+}
+
+.Why .reason{
+    padding: 1rem 2rem 1rem 3rem;
+    border-radius: 2rem 2rem 0rem 0rem;
+    margin-bottom: 1rem;
+}
+
+.Why .reason h3{
+    font-size: 3rem;
+}
+
+
+.Why .reason h4{
+    font-size: 1.4rem;
+}
+
+
+.Why .top-reason{
+    margin-top: -0vw;
+}
+
+
+
+.Why .mid{
+    margin-left: -0rem;
+}
+
+
+.Talk{
+    padding: 3rem 2rem 3rem 2rem;
+}
+
+.Talk .inner{
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+}
+
+.Talk .inner .left .man{
+    position: relative;
+    width: 95%;
+    top: 0rem;
+}
+
+.Talk .inner h2{
+font-size: 1.8rem;
+margin-top: 1rem;
+}
+
+.Talk .inner h3{
+    font-size: 2rem;
+}
+
+
+.Talk .inner .contact-btn{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 1.6rem;
+    border-radius: 3rem;
+    margin-top: 2rem;
+}
+
+.Sub{
+    padding: 3rem 2rem 3rem 2rem;
+}
+
+.Sub h2{
+        font-size: 2rem;
+}
+
+
+.Sub .main_p{
+    font-size: 1.4rem;
+}
+
+
+.Choose{
+    padding: 3rem 2rem;
+}
+
+.Choose h2{
+        font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.Choose .item{
+    padding: 2rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.Choose .item h3{
+        font-size: 1.6rem;
+}
+
+
+.Choose .item p{
+    font-size: 1.2rem;
+}
+
+
+
+.main-dropdown{
+    z-index: 9999;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100vw;
+    margin-left: -2rem;
+    margin-top: 1rem;
+}
+
+
+.main-dropdown .nav-link{
+  font-size: 1.1rem;
+  margin-right: 2rem;
+}
+
+
+.main-dropdown #pills-tab{
+    padding-left: 0rem;
+}
+
+
+.main-dropdown #pills-tabContent{
+    padding-left: 0rem;
+}
+
+
+.main-dropdown #pills-tabContent .tab-pane a{
+    font-size: 1rem;
+}
+
+
+.main-dropdown #pills-tabContent .tab-pane p{
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.main-dropdown-2{
+    z-index: 9999;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100vw;
+    margin-left: -2rem;
+    margin-top: 1rem;
+}
+
+
+.main-dropdown-2 a{
+    font-size: 1rem;
+}
+
+
+.main-dropdown-2 p{
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+#exampleModal .modal-dialog{
+    min-width: 95%;
+    border-radius: 1rem;
+}
+
+#exampleModal .modal-content{
+    border-radius: 1rem;
+}
+
+#exampleModal .modal-body{
+    padding: 0rem;
+    border-radius: 1rem;
+}
+
+#exampleModal .left .contact-img{
+   display: none;
+}
+
+#exampleModal .right{
+    position: relative;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+}
+
+#exampleModal .right .close-btn{
+    right: 3rem;
+}
+
+#exampleModal .right .close-btn img{
+    width: 1.2rem;
+}
+
+#exampleModal .right h2{
+    font-size: 3rem;
+    line-height: 2.6rem;
+    margin-bottom: 3rem;
+}
+
+
+#exampleModal .right input{
+    height: 3rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+#exampleModal .right select{
+    height: 3rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+#exampleModal .right textarea{
+    padding-left: 2rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#exampleModal .right .submit-btn{
+    height: 2.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    border-radius: 1.5rem;
+    font-size: 0.8rem;
+}
+
+
+footer{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+footer .f_col{
+    padding-right: 0rem;
+}
+
+footer .s_col{
+    padding-right: 0rem;
+}
+
+footer .t_col{
+    padding-right: 0rem;
+}
+
+
+footer .logo{
+    width: 6rem;
+    margin-bottom: 2rem;
+}
+
+footer .main_p{
+    font-size: 1rem;
+}
+
+
+footer h2{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+
+footer ul li{
+    margin-bottom: 0.5rem;
+}
+
+footer ul li a{
+    font-size: 0.8rem;
+}
+
+
+footer .news{
+    margin-top: 2rem;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+    border-radius: 1rem;
+}
+
+
+footer .news .footer-mail{
+    width: 15rem;
+    top: -1vw;
+    right: -8vw;
+}
+
+
+
+footer .news h3{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+footer .news input{
+    border-radius: 2rem;
+    height: 3rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+
+footer .news button{
+    margin-top: 1rem;
+    font-size: 1rem;
+    height: 3rem;
+    border-radius: 2rem;
+}
+
+
+footer hr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer h3{
+    font-size: 1.2rem;
+}
+
+footer .second_p{
+    font-size: 1rem;
+}
+
+footer .second_hr{
+    margin-top: 2rem;
+}
+
+footer .third_p{
+    font-size: 1rem;
+}
+
+
+footer .icons{
+    width: 2.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+
+/*------------13-10-2023------------------*/
+
+
+.Banner3{
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-right: 2rem;
+}
+
+.Banner3 h2{
+    font-size: 1rem;
+}
+
+
+.Banner3 h1{
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.Banner3 p{
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-top: 2rem;
+}
+
+.Banner3 .get-btn{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    padding: 0.6rem 2rem;
+    border-radius: 2rem;
+}
+
+
+.What{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 8px solid #2ba0e4;
+}
+
+
+.What h2{
+    font-size: 2rem;   
+    line-height: 2rem;
+    margin-top: 0rem;
+}
+
+.What p{
+    padding-left: 0rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+
+.What .contact-btn{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    padding: 0.6rem 2rem;
+    border-radius: 2rem;
+}
+
+
+
+.How{
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.How h2{
+    font-size: 2rem;   
+    line-height: 2rem;
+    max-width: 20ch !important;
+    margin-bottom: 2rem;
+}
+
+.How .main_p{
+  font-size: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.How .item{
+    min-height: auto;
+    border-radius: 1.5rem;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-bottom: 2rem;
+}
+
+.How .item img{
+    width: 4rem;
+    margin-top: 0rem;
+}
+
+.How .item p{
+    font-size: 1rem;
+    padding-left: 0rem;
+    margin-top: 1rem;
+}
+
+
+.Features{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.Features h2{
+    font-size: 2rem;   
+    line-height: 2rem;
+    max-width: 15ch !important;
+    margin-bottom: 2rem;
+}
+
+.Features .item{
+    border-radius: 1.5rem;
+    padding: 1rem 2rem 1rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.Features .item img{
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+
+.Features .item h3{
+        font-size: 1rem;
+        margin-bottom: 1rem;
+}
+
+
+.Features .item p{
+    font-size: 1rem;
+}
+
+
+.Demo{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Demo td img{
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+
+
+
+.Demo .item{
+  padding: 1.5rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+.Demo .item p{
+    font-size: 1rem;
+}
+
+.Demo .item img{
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+
+.Demo .items{
+  padding: 1.5rem 1rem 1rem 1rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+.Demo .items img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.Demo .items h3{
+    font-size: 1.2rem;
+}
+
+.Demo .items p{
+    font-size: 0.8rem;
+}
+
+
+
+
+
+.Demo h2{
+    font-size: 2rem;   
+    line-height: 2rem;
+    max-width: 20ch !important;
+    margin-bottom: 2rem;
+}
+
+
+.Demo h3{
+    font-size: 1.2rem;   
+    line-height: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+.Demo .left{
+    padding-right: 0rem;
+}
+
+
+.Demo p{
+    font-size: 1rem;
+}
+
+
+.Demo .contact-btn {
+    margin-top: 2rem;
+    padding: 0.6rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    width: 100%;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+}
+
+
+.Demo .learn-btn {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.6rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    margin-right: 0rem;
+    margin-bottom: 2rem;
+}
+
+.Demo .learn-btn img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+
+.Model{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Model h2{
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.Model .left{
+    padding-right: 0rem;
+}
+
+
+
+.Model .item{
+    padding: 2rem 2rem 1rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.Model .item .circle{
+    width: 2rem;
+    top: 1.5rem;
+    left: -1rem;
+}
+
+.Model .item .icon{
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.Model .item h3{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.Model .item p{
+    font-size: 1rem;
+}
+
+
+.Model .right{
+    padding-left: 1rem;
+    padding-right: 0rem;
+}
+
+.Model .top{
+    margin-top: 0rem;
+}
+
+
+.Technology h2{
+    max-width: 25ch;
+    line-height: 2rem;
+}
+
+
+.Whitelabel {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.Whitelabel .left{
+    padding-right: 0rem;
+}
+
+.Whitelabel h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.Whitelabel p {
+    font-size: 1rem;
+}
+
+
+.Whitelabel .contact-btn {
+    margin-top: 1rem;
+    padding: 0.6rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    width: 100%;
+}
+
+.Whitelabel .learn-btn {
+    margin-top: 1rem;
+    padding: 0.6rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.Whitelabel .learn-btn img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+
+.Whitelabel .item{
+    padding: 2rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.Whitelabel .item h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Whitelabel .item p{
+    width: auto;
+  font-size: 1rem;
+}
+
+
+.Whitelabel .right img{
+    width: 100%;
+}
+
+
+.FAQ{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+.FAQ .card-header img{
+    width: 2rem;
+    right: 1rem;
+    top: 1rem;
+}
+
+
+.FAQ h2{
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.FAQ #accordion button{
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.FAQ #accordion .card-body{
+    font-size: 1rem;
+}
+
+
+
+.Blog{
+    padding: 2rem 2rem 3rem 2rem;
+}
+
+.Blog .outer{
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.Blog .heading{
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 1rem;
+}
+
+.Blog .heading h1{
+    font-size: 1.2rem;
+}
+
+
+.Blog .outer .blog-img{
+    height: 20rem;
+}
+
+.Blog .outer p{
+    font-size: 0.9rem;
+    margin-top: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+
+
+
+
+ }
+
+
+
+
+  @media (max-width: 900px)  /*-----------TABLETS--------------*/
+  and (min-width: 700px){
+   
+  
+
+
+
+  }
+
+
+
+
+
+
+
+  @media (max-width: 1300px)  /*-----------13/10 inch laptop--------------*/
+  and (min-width: 900px){
+   
+  
+
+
+
+  }
+
+
+
+
+
+
+  @media (max-width: 1930px)  /*-----------23/24 inch laptop--------------*/
+  and (min-width: 1820px){
+
+
+
+  }  
