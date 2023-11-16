@@ -166,9 +166,9 @@ li a:hover {
     color: #f6f7f8 !important;
 }
 .display-5 {
-    font-size: calc(1.425rem + 2.1vw);
+    /* font-size: calc(1.425rem + 2.1vw);
     font-weight: 700;
-    line-height: 1.3;
+    line-height: 1.3; */
 }
  
 </style>   
@@ -184,9 +184,9 @@ li a:hover {
 		<div class="container pt-5">
 			<div class="row gy-5 align-items-center py-lg-5">
 				<div class="col-lg-6 position-relative text-center text-lg-start">
-					<a href="/guides/" class="nav-link position-absolute top-0 start-0 mx-2 mt-lg-n5 mt-n4 p-0">
+					<a href="/" class="nav-link position-absolute top-0 start-0 mx-2 mt-lg-n5 mt-n4 p-0">
 						<i class="bx bx-chevron-left me-1"></i>
-						Back to the guides
+						<!-- Back to the guides -->
 					</a>
 					<div class="mx-lg-0 mx-auto pt-lg-0 pt-4" style="max-width: 526px;">
 						<h1 class="display-5 text-light">  <?php echo ($blogData->MetaDescription);?></h1>
