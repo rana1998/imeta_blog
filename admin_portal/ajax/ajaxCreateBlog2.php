@@ -8,7 +8,8 @@ $db = getDB();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $title = $_POST['title'];
     $content = $_POST['content'];
-    $authorID = $_SESSION['id']; // Replace with the actual author ID.
+    // $authorID = $_SESSION['id']; 
+    // Replace with the actual author ID.
     $publicationDate = date('Y-m-d H:i:s'); // Replace with the actual publication date.
     $category = $_POST['category'];
     $tags = $_POST['tags']; // Assuming tags are provided as an array in the form.
@@ -16,8 +17,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subtitle = $_POST['subtitle'];
     // $slug = strtolower(str_replace(' ', '-', $title)); // Convert spaces to hyphens and make lowercase
     // $url = $slug;
-    $slug = strtolower(str_replace(' ', '-', $title)); // Convert spaces to hyphens and make lowercase
-    $url = rtrim($slug, '-'); // Remove trailing hyphens
+    // $slug = strtolower(str_replace(' ', '-', $title)); // Convert spaces to hyphens and make lowercase
+    // $url = rtrim($slug, '-'); // Remove trailing hyphens
+    $url = $slug;
+    $authorID = $_POST['author'];
+    $curatorID = $_POST['curator'];
 
 
     // Check if the file field exists and is not empty
@@ -48,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 $imageURL = $targetFile;
 
                 // Call the createBlog method with the updated parameters
-                $result = $blogHelper->createBlog($db, $title, $content, $authorID, $publicationDate, $category, $tags, $url, $metaDescription, $imageURL, $subtitle);
+                $result = $blogHelper->createBlog($db, $title, $content, $authorID, $publicationDate, $category, $tags, $url, $metaDescription, $imageURL, $subtitle, $curatorID);
 
                 echo $result; // Print the result of the createBlog operation.
             } else {

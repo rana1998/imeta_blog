@@ -33,12 +33,11 @@ class BlogHelper {
     //     }
     // }
 
-    public function createBlog($db, $title, $content, $authorID, $publicationDate, $category, $tags, $url, $metaDescription, $imageURL, $subtitle) {
+    public function createBlog($db, $title, $content, $authorID, $publicationDate, $category, $tags, $url, $metaDescription, $imageURL, $subtitle, $curatorID) {
         try {
-            print_r($subtitle);
             // Prepare the SQL query to insert a new blog post with an image URL
-            $sql = "INSERT INTO BlogPost (Title, Content, AuthorID, PublicationDate, Category, Subtitle,  Tags, URL, MetaDescription, ImageURL)
-                    VALUES (:title, :content, :authorID, :publicationDate, :category, :subtitle, :tags, :url, :metaDescription, :imageURL)";
+            $sql = "INSERT INTO BlogPost (Title, Content, AuthorID, CuratorID PublicationDate, Category, Subtitle,  Tags, URL, MetaDescription, ImageURL)
+                    VALUES (:title, :content, :authorID, :curatorID, :publicationDate, :category, :subtitle, :tags, :url, :metaDescription, :imageURL)";
     
             $stmt = $db->prepare($sql);
     
@@ -46,6 +45,7 @@ class BlogHelper {
             $stmt->bindParam(":title", $title, PDO::PARAM_STR);
             $stmt->bindParam(":content", $content, PDO::PARAM_STR);
             $stmt->bindParam(":authorID", $authorID, PDO::PARAM_INT);
+            $stmt->bindParam(":curatorID", $curatorID, PDO::PARAM_INT);
             $stmt->bindParam(":publicationDate", $publicationDate, PDO::PARAM_STR);
             $stmt->bindParam(":category", $category, PDO::PARAM_STR);
             $stmt->bindParam(":subtitle", $subtitle, PDO::PARAM_STR);

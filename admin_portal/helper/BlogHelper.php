@@ -2,42 +2,11 @@
 
 class BlogHelper {
     
-    // public function createBlog($db,$title, $content, $authorID, $publicationDate, $category, $subcategory, $tags, $url, $metaDescription) {
-    //     try {
-    //             // Prepare the SQL query to insert a new blog post
-    //         $sql = "INSERT INTO BlogPost (Title, Content, AuthorID, PublicationDate, Category, Subcategory, Tags, URL, MetaDescription)
-    //                 VALUES (:title, :content, :authorID, :publicationDate, :category, :subcategory, :tags, :url, :metaDescription)";
-            
-    //         $stmt = $db->prepare($sql);
-    
-    //         // Bind parameters
-    //         $stmt->bindParam(":title", $title, PDO::PARAM_STR);
-    //         $stmt->bindParam(":content", $content, PDO::PARAM_STR);
-    //         $stmt->bindParam(":authorID", $authorID, PDO::PARAM_INT);
-    //         $stmt->bindParam(":publicationDate", $publicationDate, PDO::PARAM_STR);
-    //         $stmt->bindParam(":category", $category, PDO::PARAM_STR);
-    //         $stmt->bindParam(":subcategory", $subcategory, PDO::PARAM_STR);
-    //         $stmt->bindParam(":tags", $tags, PDO::PARAM_STR);
-    //         $stmt->bindParam(":url", $url, PDO::PARAM_STR);
-    //         $stmt->bindParam(":metaDescription", $metaDescription, PDO::PARAM_STR);
-    
-    //         // Execute the query to insert the new blog post
-    //         $stmt->execute();
-    
-    //         // Close the database connection
-    //         $db = null;
-    
-    //         return "success";
-    //     } catch (PDOException $e) {
-    //         return "Error: " . $e->getMessage();
-    //     }
-    // }
-
-    public function createBlog($db, $title, $content, $authorID, $publicationDate, $category, $tags, $url, $metaDescription, $imageURL) {
+    public function createBlog($db, $title, $content, $authorID, $publicationDate, $category, $tags, $url, $metaDescription, $imageURL, $subtitle, $curatorID) {
         try {
             // Prepare the SQL query to insert a new blog post with an image URL
-            $sql = "INSERT INTO BlogPost (Title, Content, AuthorID, PublicationDate, Category, Tags, URL, MetaDescription, ImageURL)
-                    VALUES (:title, :content, :authorID, :publicationDate, :category, :tags, :url, :metaDescription, :imageURL)";
+            $sql = "INSERT INTO BlogPost (Title, Content, AuthorID, CuratorID,  PublicationDate, Category, Subtitle,  Tags, URL, MetaDescription, ImageURL)
+                    VALUES (:title, :content, :authorID, :curatorID, :publicationDate, :category, :subtitle, :tags, :url, :metaDescription, :imageURL)";
     
             $stmt = $db->prepare($sql);
     
@@ -45,12 +14,15 @@ class BlogHelper {
             $stmt->bindParam(":title", $title, PDO::PARAM_STR);
             $stmt->bindParam(":content", $content, PDO::PARAM_STR);
             $stmt->bindParam(":authorID", $authorID, PDO::PARAM_INT);
+            $stmt->bindParam(":curatorID", $curatorID, PDO::PARAM_INT);
             $stmt->bindParam(":publicationDate", $publicationDate, PDO::PARAM_STR);
             $stmt->bindParam(":category", $category, PDO::PARAM_STR);
+            $stmt->bindParam(":subtitle", $subtitle, PDO::PARAM_STR);
             $stmt->bindParam(":tags", $tags, PDO::PARAM_STR);
             $stmt->bindParam(":url", $url, PDO::PARAM_STR);
             $stmt->bindParam(":metaDescription", $metaDescription, PDO::PARAM_STR);
             $stmt->bindParam(":imageURL", $imageURL, PDO::PARAM_STR);
+
     
             // Execute the query to insert the new blog post
             $stmt->execute();
@@ -63,6 +35,7 @@ class BlogHelper {
             return "Error: " . $e->getMessage();
         }
     }
+
     
     public function updateBlog($db, $blogID, $title, $content, $authorID, $lastUpdated, $category, $subcategory, $tags, $url, $metaDescription) {
         try {

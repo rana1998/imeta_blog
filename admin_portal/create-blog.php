@@ -1,6 +1,15 @@
 <?php
 ob_start();
 include "header.php";
+include './core/config.php';
+$db = getDB();
+
+$sql = "SELECT * FROM admin_login";
+$stmt = $db->prepare($sql);
+$stmt->execute();
+
+$data = $stmt->fetchAll(PDO::FETCH_OBJ);
+
 ?>
 <!-- Main-body start -->
 <div class="main-body">
@@ -116,6 +125,37 @@ include "header.php";
                                             <input autocomplete="off" type="text" class="form-control" name="tags" id="tags">
                                         </div>
                                     </div>
+
+                                    <div class="form-group row">
+                                        <label class="col-sm-3 col-form-label">Slug</label>
+                                        <div class="col-sm-9">
+                                            <input autocomplete="off" type="text" class="form-control" name="slug" id="slug">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <label class="col-sm-3 col-form-label">Author</label>
+                                        <div class="col-sm-9">
+                                            <select class="form-control" name="author" id="author">
+                                            <?php foreach ($data as $row) { ?>
+                                                <option value="<?php echo $row->id; ?>"><?php echo $row->user_name; ?></option>
+                                            <?php } ?>
+                                                <!-- Add more options as needed -->
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-3 col-form-label">Curator</label>
+                                        <div class="col-sm-9">
+                                            <select class="form-control" name="curator" id="curator">
+                                                <?php foreach ($data as $row) { ?>
+                                                    <option value="<?php echo $row->id; ?>"><?php echo $row->user_name; ?></option>
+                                                <?php } ?>
+                                                <!-- Add more options as needed -->
+                                            </select>
+                                        </div>
+                                    </div>
+
                                     <!-- <div class="form-group row">
                                         <label class="col-sm-3 col-form-label">Image</label>
                                         <div class="col-sm-9">

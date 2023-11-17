@@ -38,26 +38,26 @@ $blogData = $blogClass->blogDetailsForPostHomePage($db,$tag);
 
    <link  href="https://imetatech.io" rel="canonical">
    <?php if(isset($_GET['tag'])) { ?>
-	<script type="application/ld+json">
+		<script type="application/ld+json">
 	{
 	"@context": "https:\/\/schema.org",
 	"@type": "Article",
-	"name": "<?php echo $blogData->title; ?>",
+	"name": "<?php echo $blogData->Title; ?>",
 	"url": "https:\/\/www.imeta.io\/blog\/<?php echo $tag;?>",
 	"author": {
 		"@type": "People",
-		"name": "<?php echo $blogData->username; ?>"
+		"name": "<?php echo 'imeta.io'; ?>"
 	},
 	"publisher": {
 		"@type": "Organization",
 		"name": "imeta.io"
 	},
-	"datePublished": "<?php echo date(DATE_ATOM, $blogData->PublicationDate);?>",
-	"dateModified": "<?php echo date(DATE_ATOM, $blogData->LastUpdated);?>",
+	"datePublished": "<?php echo date('Y-m-d\TH:i:sP', strtotime($blogData->PublicationDate));?>",
+	"dateModified": "<?php echo date('Y-m-d\TH:i:sP', strtotime($blogData->LastUpdated));?>",
 	<?php if(!empty($blogData->imageURL)) { ?>
 	"image": "<?php echo $blogData->imageURL; ?>",
 	<?php } ?>
-	"headline": "<?php echo $blogData->title; ?>"
+	"headline": "<?php echo $blogData->Title; ?>"
 	}
 	</script>
 	<?php } ?>
